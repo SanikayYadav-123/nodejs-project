@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-demo-app",
+  "version": "1.0.0",
+  "description": "Simple Node.js application for AWS EC2 deployment",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Sanika",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
