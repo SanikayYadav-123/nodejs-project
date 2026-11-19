@@ -36,7 +36,7 @@ pipeline {
                         ssh -o StrictHostKeyChecking=no ${REMOTE_USER}@${SERVER_IP} '
                             cd ${REMOTE_PATH} &&
                             npm install &&
-                            pm2 start app.js --name nodejs-app || pm2 restart nodejs-app
+                            pm2 start app.js --name nodejs-project || pm2 restart nodejs-project
                         '
                     """
                 }
