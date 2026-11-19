@@ -6,7 +6,7 @@ const PORT = 3000;
 // Home Route
 app.get("/", (req, res) => {
     res.send(`
-        <h1>🚀 Welcome to My Node.js App</h1>
+        <h1>🚀 Welcome to My Node.js Project <3 </h1>
         <p>This application is deployed on AWS EC2. Target Server</p>
         <hr>
         <h3>Features</h3>
